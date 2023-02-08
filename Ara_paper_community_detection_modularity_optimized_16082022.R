@@ -4,6 +4,7 @@
 #to the sum of all edges between these communities in the original network. Lastly a overview table is generated containing a description of each community with the top scoring BP class GO-term, modularity scores and the number of target and transcription factor genes included. A second
 # table contains all genes with their community allocation and in case of Arabidopsis the TAIR annotation of these genes. 
 
+#Code for GO-term Enrichment with TopGO was adapted from Donat Wulf and Andrea Bräutigam
 
 ####Set your libpath and working directory 
 .libPaths( c( "/mnt/Rlibrary/" , .libPaths() ) ) ###only use if non default libPaths is used
